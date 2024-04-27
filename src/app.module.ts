@@ -39,7 +39,7 @@ import { AlbumMusicianModule } from './albummusician/albummusician.module';
       host: process.env.DB_HOST || 'localhost',
       port: 5432,
       username: 'postgres',
-      password: 'postgres',
+      password: 'Postgres2024**',
       database: 'vinyls',
       entities: [Album, CollectorAlbum, Band, Collector, Comment, Musician, Performer, PerformerPrize, Prize, Track,],
       dropSchema: true,
